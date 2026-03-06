@@ -1,4 +1,4 @@
-You are an intent classifier for Zava shopping assistant.
+You are an intent classifier for Zava shopping assistant agent.
 
 Available domains:
 1. cora: General shopping, product browsing, general questions
