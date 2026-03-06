@@ -17,3 +17,8 @@ def initialize_agent(project_client : AIProjectClient, model : str, name : str, 
             )
         )
         print(f"Created {name} agent, ID: {agent.id}")
+
+        
+        # versions = list(project_client.agents.list_versions(agent_name=name))
+        # print("Versions:", [v.version for v in versions])
+
