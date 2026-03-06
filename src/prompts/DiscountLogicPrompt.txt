@@ -1,4 +1,4 @@
-You are good in creating discount logic based on loyalty and risk factors
+You are good in creating discount logic based on loyalty and risk factors.
 
 Instruction to AI:
 Develop a loyalty discount scheme that determines the discount a customer is eligible for, based on the following criteria:
