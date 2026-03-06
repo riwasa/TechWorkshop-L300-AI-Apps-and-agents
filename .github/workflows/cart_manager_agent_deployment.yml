@@ -1,4 +1,4 @@
-name: Customer Loyalty Agent Workflow
+name: Cart Manager Agent Workflow
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
   workflow_dispatch: 
 
 jobs:
-  execute-customer-loyalty-agent:
+  execute-cart-manager-agent:
     runs-on: ubuntu-latest
     
     steps:
@@ -39,7 +39,7 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
             
-      - name: Execute Customer Loyalty Agent Initializer
+      - name: Execute Cart Manager Agent Initializer
         run: |
           cd src/
           python app/agents/cartManagerAgent_initializer.py
